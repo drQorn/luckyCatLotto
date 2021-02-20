@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Mega Millions Numbers Generator</title>
+    <link rel="stylesheet" href="bs1.css" />
+  </head>
+  <body>
+    <!-- the purpose of this page is to pick 5 numbers from 1 to 70 and then one number from 1 to 25 -->
+    <div class="container">
+      <div class="firstline">
+        <div class="maneki-neko">
+          <img class="luckcat" src="luckcat1 copy.png" />
+        </div>
+        <div class="headline">
+          <h1 class="headline">
+            The winning Mega Millions numbers will be:
+          </h1>
+        </div>
+      </div>
+
+      <div class="secondline">
+        <div class="mainNumber">
+          <label>Main Numbers: </label>
+        </div>
+        <div class="bonusNumber">
+          <label>Bonus Number: </label>
+        </div>
+      </div>
+
+      <div class="thirdline">
+        <div class="buttonDiv">
+          <input
+            class="button"
+            type="button"
+            value="Click here to pick your numbers"
+            onclick="picknumbers()"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="./bs1.js"></script>
+  </body>
+</html>
